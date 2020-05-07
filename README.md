@@ -12,6 +12,8 @@ you can train for smaller time or cut the time. If you want to take a look gener
 
 
 test_pop = Population(200)
+
+
 test_pop.plot(model2)
 
 Note that I'm not using "Large Poisson Game" computation of pivot probabilities, rather, sample a few and compute the pivot probability directly using combinators.  
